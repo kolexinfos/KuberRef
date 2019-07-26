@@ -1,0 +1,1 @@
+A project created for reference purposes for looking up key concepts, major functionalities and usage of Kubernetes 
