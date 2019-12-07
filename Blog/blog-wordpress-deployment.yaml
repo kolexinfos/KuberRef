@@ -4,6 +4,7 @@ metadata:
   name: wordpress
   labels:
     app: wordpress
+    tier: frontend
 spec:
   selector:
     matchLabels:
@@ -18,7 +19,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: wordpress:4.8-apache
+      - image: wordpress:latest
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
